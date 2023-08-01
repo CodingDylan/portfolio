@@ -1,0 +1,31 @@
+li {
+    float: left;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+}
+.topnav {
+    overflow: hidden;
+
+}
+
+.home--nav {
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    top: 13;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 10;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
